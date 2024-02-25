@@ -24,7 +24,7 @@ def main():
     key = get_random_bytes(16)
 
     # The message to encrypt
-    message = b'Auto einai ena dokimastiko minuma gia ton elegxo tou script'
+    message = b'This is a test message!'
 
     # Encrypt the message
     iv, ciphertext = encrypt_message(key, message)
